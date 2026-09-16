@@ -26,7 +26,7 @@ export const BODA = {
   // >>> CAMBIAR AQUI <<<  Dirección de la web cuando ya esté publicada en Vercel.
   // Primero déjalo así; cuando Vercel te dé la dirección, la pegas aquí.
   // Sirve para que al compartir el enlace por WhatsApp salga la previsualización.
-  url: 'https://mi-boda.vercel.app',
+  url: 'https://boda-seven-mu.vercel.app/',
 
   // >>> CAMBIAR AQUI (opcional) <<<  Texto de bienvenida debajo de la cuenta atrás.
   bienvenida:
