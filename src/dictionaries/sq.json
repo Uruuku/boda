@@ -1,0 +1,52 @@
+{
+  "config": {
+    "fechaTexto": "E shtunë, 19 Shtator 2026",
+    "bienvenida": "Faleminderit që jeni me ne në këtë ditë të veçantë! Na ndihmoni të kapim çdo moment duke ngarkuar fotot tuaja këtu.",
+    "descripcion": "Na ndihmoni të kapim çdo moment të dasmës sonë. Ngarkoni fotot tuaja këtu: pa regjistrim, pa shkarkime."
+  },
+  "page": {
+    "instrucciones_titulo": "Zero ndërlikime",
+    "instrucciones_desc": "Zgjidhni fotot nga galeria juaj, cilat të doni, dhe ato do të shfaqen në mur."
+  },
+  "countdown": {
+    "dias": "Ditë",
+    "horas": "Orë",
+    "minutos": "Minuta",
+    "segundos": "Sekonda"
+  },
+  "gallery": {
+    "titulo": "Muri i Kujtimeve",
+    "cargando": "Duke ngarkuar...",
+    "sin_fotos_header": "Ende nuk ka foto",
+    "modo_admin": "MODI ADMIN",
+    "descargar_todas": "Shkarko të gjitha fotot",
+    "cerrar_admin": "Mbyll modin admin",
+    "actualizar": "Rifresko galerinë",
+    "preparando": "Duke përgatitur murin e kujtimeve...",
+    "sin_fotos_muro": "Nuk ka ende momente të ndara.",
+    "se_el_primero": "Bëhuni i pari që ngarkoni një foto!",
+    "acceso_admin": "Qasja e Admin",
+    "intro_pass": "Futni fjalëkalimin për të menaxhuar murin.",
+    "pass_placeholder": "Fjalëkalimi",
+    "verificando": "Duke verifikuar...",
+    "entrar": "Hyni"
+  },
+  "uploader": {
+    "boton_principal": "Ngarko fotot tuaja!",
+    "compartir": "Ndaj",
+    "momentos": "momente",
+    "un_momento": "një moment",
+    "aviso_muchas_fotos": "Janë shumë foto: mund të marrë disa minuta. Lini këtë ekran hapur derisa të përfundojë.",
+    "nombre_label": "Emri juaj (opsional)",
+    "nombre_placeholder": "P.sh.: Familja Gashi",
+    "mensaje_label": "Mesazhi (opsional)",
+    "mensaje_placeholder": "Rrofshin porsamartuarit!",
+    "subiendo": "Duke ngarkuar...",
+    "enviar": "Dërgo",
+    "fotos": "foto",
+    "una_foto": "foto",
+    "exito_lleno": "Fotot u morën dhe u ruajtën të sigurta 🤍 (muri është plot, kështu që do të duhet pak kohë të shfaqen)",
+    "exito_normal": "u dërguan me sukses! Faleminderit 🤍",
+    "error_general": "Pati një problem gjatë dërgimit të fotove. Ju lutemi provoni përsëri."
+  }
+}

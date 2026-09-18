@@ -1,0 +1,52 @@
+{
+  "config": {
+    "fechaTexto": "Sábado, 19 de Septiembre de 2026",
+    "bienvenida": "¡Gracias por acompañarnos en este día tan especial! Ayúdanos a capturar cada momento subiendo tus fotos aquí.",
+    "descripcion": "Ayúdanos a capturar cada momento de nuestra boda. Sube aquí tus fotos: sin registros, sin descargas."
+  },
+  "page": {
+    "instrucciones_titulo": "Cero complicaciones",
+    "instrucciones_desc": "Selecciona las fotos de tu galería, las que quieras, y aparecerán en el muro."
+  },
+  "countdown": {
+    "dias": "Días",
+    "horas": "Horas",
+    "minutos": "Minutos",
+    "segundos": "Segundos"
+  },
+  "gallery": {
+    "titulo": "Muro de Recuerdos",
+    "cargando": "Cargando…",
+    "sin_fotos_header": "Aún no hay fotos",
+    "modo_admin": "MODO ADMIN",
+    "descargar_todas": "Descargar todas las fotos",
+    "cerrar_admin": "Cerrar modo administrador",
+    "actualizar": "Actualizar galería",
+    "preparando": "Preparando el muro de recuerdos...",
+    "sin_fotos_muro": "Aún no hay momentos compartidos.",
+    "se_el_primero": "¡Anímate a ser el primero en subir una foto!",
+    "acceso_admin": "Acceso Admin",
+    "intro_pass": "Introduce la contraseña para gestionar el muro.",
+    "pass_placeholder": "Contraseña",
+    "verificando": "Verificando...",
+    "entrar": "Entrar"
+  },
+  "uploader": {
+    "boton_principal": "¡Sube tus fotos!",
+    "compartir": "Compartir",
+    "momentos": "momentos",
+    "un_momento": "un momento",
+    "aviso_muchas_fotos": "Son muchas fotos: puede tardar un par de minutos. Deja esta pantalla abierta hasta que termine.",
+    "nombre_label": "Tu nombre (opcional)",
+    "nombre_placeholder": "Ej: Familia García",
+    "mensaje_label": "Mensaje (opcional)",
+    "mensaje_placeholder": "¡Vivan los novios!",
+    "subiendo": "Subiendo...",
+    "enviar": "Enviar",
+    "fotos": "fotos",
+    "una_foto": "foto",
+    "exito_lleno": "Fotos recibidas y guardadas a salvo 🤍 (el muro está lleno, así que tardarán en verse)",
+    "exito_normal": "enviadas con éxito! Gracias 🤍",
+    "error_general": "Hubo un problema al enviar las fotos. Inténtalo de nuevo."
+  }
+}

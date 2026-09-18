@@ -1,0 +1,52 @@
+{
+  "config": {
+    "fechaTexto": "Saturday, September 19, 2026",
+    "bienvenida": "Thank you for joining us on this special day! Help us capture every moment by uploading your photos here.",
+    "descripcion": "Help us capture every moment of our wedding. Upload your photos here: no registration, no downloads."
+  },
+  "page": {
+    "instrucciones_titulo": "Zero hassle",
+    "instrucciones_desc": "Select the photos from your gallery, whichever you want, and they will appear on the wall."
+  },
+  "countdown": {
+    "dias": "Days",
+    "horas": "Hours",
+    "minutos": "Minutes",
+    "segundos": "Seconds"
+  },
+  "gallery": {
+    "titulo": "Wall of Memories",
+    "cargando": "Loading...",
+    "sin_fotos_header": "No photos yet",
+    "modo_admin": "ADMIN MODE",
+    "descargar_todas": "Download all photos",
+    "cerrar_admin": "Close admin mode",
+    "actualizar": "Refresh gallery",
+    "preparando": "Preparing the wall of memories...",
+    "sin_fotos_muro": "No shared moments yet.",
+    "se_el_primero": "Be the first to upload a photo!",
+    "acceso_admin": "Admin Access",
+    "intro_pass": "Enter the password to manage the wall.",
+    "pass_placeholder": "Password",
+    "verificando": "Verificando...",
+    "entrar": "Enter"
+  },
+  "uploader": {
+    "boton_principal": "Upload your photos!",
+    "compartir": "Share",
+    "momentos": "moments",
+    "un_momento": "a moment",
+    "aviso_muchas_fotos": "That's a lot of photos: it might take a couple of minutes. Leave this screen open until it finishes.",
+    "nombre_label": "Your name (optional)",
+    "nombre_placeholder": "Ex: The Smith Family",
+    "mensaje_label": "Message (optional)",
+    "mensaje_placeholder": "Long live the newlyweds!",
+    "subiendo": "Uploading...",
+    "enviar": "Send",
+    "fotos": "photos",
+    "una_foto": "photo",
+    "exito_lleno": "Photos received and safely stored 🤍 (the wall is full, so they will take a while to appear)",
+    "exito_normal": "successfully sent! Thank you 🤍",
+    "error_general": "There was a problem sending the photos. Please try again."
+  }
+}
