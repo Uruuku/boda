@@ -1,22 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FDFBF7;
-  --foreground: #2C3E2D;
+  --background: #111111;
+  --foreground: #F2F2F2;
 }
 
-/* >>> CAMBIAR AQUI (opcional) <<<  COLORES DE LA WEB
-   Si te gustan los que hay, no toques nada. Si quieres otros, cambia los
-   códigos #XXXXXX (puedes sacarlos de https://htmlcolorcodes.com).
-   El fondo y el texto también están en :root, arriba: pon ahí los mismos. */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-wedding-bg: #FDFBF7;        /* fondo de la página (crema) */
-  --color-wedding-sage: #7C9885;      /* color principal: botones, nombres (verde salvia) */
-  --color-wedding-sageDark: #607968;  /* el mismo un poco más oscuro (botón al pulsar) */
-  --color-wedding-gold: #D4AF37;      /* detalles: fecha, cámara, confeti (dorado) */
-  --color-wedding-text: #2C3E2D;      /* color del texto */
+  --color-wedding-bg: #111111;        /* Fondo casi negro */
+  --color-wedding-sage: #A68A64;      /* Oro viejo / Bronce */
+  --color-wedding-sageDark: #806745;  /* Bronce oscuro para botones */
+  --color-wedding-gold: #D4AF37;      /* Dorado brillante para detalles */
+  --color-wedding-text: #F2F2F2;      /* Blanco roto para el texto */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
