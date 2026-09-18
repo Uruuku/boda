@@ -11,7 +11,7 @@
 export const BODA = {
   // >>> CAMBIAR AQUI <<<  Nombres de la pareja, tal cual saldrán en grande en la portada.
   // Ejemplo: 'María & Carlos'
-  nombres: 'Marga y Eri',
+  nombres: 'Marga & Eri',
 
   // >>> CAMBIAR AQUI <<<  La fecha escrita, tal cual se leerá encima de los nombres.
   // Ejemplo: 'Sábado, 20 de Junio de 2027'

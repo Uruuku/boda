@@ -1,11 +1,11 @@
 {
   "config": {
     "fechaTexto": "E shtunë, 19 Shtator 2026",
-    "bienvenida": "Faleminderit që jeni me ne në këtë ditë të veçantë! Na ndihmoni të kapim çdo moment duke ngarkuar fotot tuaja këtu.",
+    "bienvenida": "Pijet janë të paguara nga ne, por çmimi është të lini fotot tuaja më të mira (dhe më të këqija) këtu poshtë.",
     "descripcion": "Na ndihmoni të kapim çdo moment të dasmës sonë. Ngarkoni fotot tuaja këtu: pa regjistrim, pa shkarkime."
   },
   "page": {
-    "instrucciones_titulo": "Zero ndërlikime",
+    "instrucciones_titulo": "Paparacë për një ditë",
     "instrucciones_desc": "Zgjidhni fotot nga galeria juaj, cilat të doni, dhe ato do të shfaqen në mur."
   },
   "countdown": {
@@ -15,7 +15,7 @@
     "segundos": "Sekonda"
   },
   "gallery": {
-    "titulo": "Muri i Kujtimeve",
+    "titulo": "Çfarë ndodhi në dasmë...",
     "cargando": "Duke ngarkuar...",
     "sin_fotos_header": "Ende nuk ka foto",
     "modo_admin": "MODI ADMIN",

@@ -1,11 +1,11 @@
 {
   "config": {
     "fechaTexto": "Saturday, September 19, 2026",
-    "bienvenida": "Thank you for joining us on this special day! Help us capture every moment by uploading your photos here.",
+    "bienvenida": "The drinks are on us, but the price is leaving your best (and worst) photos right down here.",
     "descripcion": "Help us capture every moment of our wedding. Upload your photos here: no registration, no downloads."
   },
   "page": {
-    "instrucciones_titulo": "Zero hassle",
+    "instrucciones_titulo": "Paparazzi for a day",
     "instrucciones_desc": "Select the photos from your gallery, whichever you want, and they will appear on the wall."
   },
   "countdown": {
@@ -15,7 +15,7 @@
     "segundos": "Seconds"
   },
   "gallery": {
-    "titulo": "Wall of Memories",
+    "titulo": "What happened at the wedding...",
     "cargando": "Loading...",
     "sin_fotos_header": "No photos yet",
     "modo_admin": "ADMIN MODE",

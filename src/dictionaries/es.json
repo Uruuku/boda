@@ -1,11 +1,11 @@
 {
   "config": {
     "fechaTexto": "Sábado, 19 de Septiembre de 2026",
-    "bienvenida": "¡Gracias por acompañarnos en este día tan especial! Ayúdanos a capturar cada momento subiendo tus fotos aquí.",
+    "bienvenida": "Las bebidas corren de nuestra cuenta, pero el precio es que nos dejéis vuestras mejores (y peores) fotos aquí abajo.",
     "descripcion": "Ayúdanos a capturar cada momento de nuestra boda. Sube aquí tus fotos: sin registros, sin descargas."
   },
   "page": {
-    "instrucciones_titulo": "Cero complicaciones",
+    "instrucciones_titulo": "Paparazzis por un día",
     "instrucciones_desc": "Selecciona las fotos de tu galería, las que quieras, y aparecerán en el muro."
   },
   "countdown": {
@@ -15,7 +15,7 @@
     "segundos": "Segundos"
   },
   "gallery": {
-    "titulo": "Muro de Recuerdos",
+    "titulo": "Lo que pasó en la boda...",
     "cargando": "Cargando…",
     "sin_fotos_header": "Aún no hay fotos",
     "modo_admin": "MODO ADMIN",
