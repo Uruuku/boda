@@ -5,15 +5,14 @@
   --foreground: #2B1E16;
 }
 
-/* Paleta extraída y adaptada de la identidad del tríptico M&E */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-wedding-bg: #FCFAF8;        /* Fondo crema suave, mejora la legibilidad */
-  --color-wedding-sage: #8B2635;      /* Rojo Granate Alhambra para botones y acentos */
-  --color-wedding-sageDark: #6B1D28;  /* Granate oscuro para el efecto al pulsar botones */
+  --color-wedding-bg: #FCFAF8;        /* Fondo crema suave para buena lectura */
+  --color-wedding-sage: #436445;      /* Tu verde corporativo del tríptico */
+  --color-wedding-sageDark: #2E4730;  /* El mismo verde oscurecido para los clics */
   --color-wedding-gold: #C59B6D;      /* Dorado arena para detalles y cuenta atrás */
-  --color-wedding-text: #2B1E16;      /* Marrón carbón para el texto principal */
+  --color-wedding-text: #2B1E16;      /* Texto en marrón muy oscuro */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -21,6 +20,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  /* Aplicamos la fuente limpia a toda la web para imitar los bloques del tríptico */
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
