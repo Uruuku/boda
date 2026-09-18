@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAF6F0;
-  --foreground: #4A3B32;
+  --background: #FCFAF8;
+  --foreground: #2B1E16;
 }
 
+/* Paleta extraída y adaptada de la identidad del tríptico M&E */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-wedding-bg: #FAF6F0;        /* Crema muy cálido */
-  --color-wedding-sage: #C07C66;      /* Terracota suave */
-  --color-wedding-sageDark: #9A5E4B;  /* Terracota intenso */
-  --color-wedding-gold: #D89A7B;      /* Tono melocotón oscuro */
-  --color-wedding-text: #4A3B32;      /* Marrón café para el texto */
+  --color-wedding-bg: #FCFAF8;        /* Fondo crema suave, mejora la legibilidad */
+  --color-wedding-sage: #8B2635;      /* Rojo Granate Alhambra para botones y acentos */
+  --color-wedding-sageDark: #6B1D28;  /* Granate oscuro para el efecto al pulsar botones */
+  --color-wedding-gold: #C59B6D;      /* Dorado arena para detalles y cuenta atrás */
+  --color-wedding-text: #2B1E16;      /* Marrón carbón para el texto principal */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -20,5 +21,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Aplicamos la fuente limpia a toda la web para imitar los bloques del tríptico */
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
