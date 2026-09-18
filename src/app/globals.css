@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #111111;
-  --foreground: #F2F2F2;
+  --background: #FAF6F0;
+  --foreground: #4A3B32;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-wedding-bg: #111111;        /* Fondo casi negro */
-  --color-wedding-sage: #A68A64;      /* Oro viejo / Bronce */
-  --color-wedding-sageDark: #806745;  /* Bronce oscuro para botones */
-  --color-wedding-gold: #D4AF37;      /* Dorado brillante para detalles */
-  --color-wedding-text: #F2F2F2;      /* Blanco roto para el texto */
+  --color-wedding-bg: #FAF6F0;        /* Crema muy cálido */
+  --color-wedding-sage: #C07C66;      /* Terracota suave */
+  --color-wedding-sageDark: #9A5E4B;  /* Terracota intenso */
+  --color-wedding-gold: #D89A7B;      /* Tono melocotón oscuro */
+  --color-wedding-text: #4A3B32;      /* Marrón café para el texto */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
