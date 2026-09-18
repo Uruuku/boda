@@ -4,18 +4,18 @@ import Gallery from '@/components/Gallery';
 import Image from 'next/image';
 import { BODA } from '@/config/boda';
 import { getDictionary } from '@/dictionaries/getDictionary';
-// 1. IMPORTAR EL NUEVO COMPONENTE AQUI ABAJO
 import LanguageSwitcher from '@/components/LanguageSwitcher'; 
 
-export default async function Home({ params }: { params: Promise<{ lang: 'es' | 'en' | 'sq' }> }) {
+export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const resolvedParams = await params;
-  const dict = await getDictionary(resolvedParams.lang);
+  const lang = resolvedParams.lang as 'es' | 'en' | 'sq';
+  const dict = await getDictionary(lang);
 
   return (
     <main className="min-h-screen bg-wedding-bg text-wedding-text relative pb-32">
       
-      {/* 2. AÑADIR EL SELECTOR DE IDIOMA AQUÍ */}
-      <LanguageSwitcher lang={resolvedParams.lang} />
+      <LanguageSwitcher lang={lang} />
+
       <section className="flex flex-col items-center justify-center pt-16 px-6 text-center">
         <div className="relative w-40 h-40 md:w-48 md:h-48 mb-8">
           <div className="absolute inset-0 rounded-full border-4 border-wedding-gold/20 scale-110"></div>
@@ -37,7 +37,6 @@ export default async function Home({ params }: { params: Promise<{ lang: 'es' | 
           {BODA.nombres}
         </h1>
 
-        {/* Pasamos los textos correspondientes a cada componente */}
         <Countdown dict={dict.countdown} />
 
         <p className="text-lg opacity-80 max-w-md mx-auto mt-6 mb-10 leading-relaxed">

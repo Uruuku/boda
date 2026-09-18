@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 });
 
 type Props = {
-  params: Promise<{ lang: 'es' | 'en' | 'sq' }>;
+  params: Promise<{ lang: string }>;
 };
 
-// Generamos los metadatos dinámicamente según el idioma
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const resolvedParams = await params;
-  const dict = await getDictionary(resolvedParams.lang);
+  const lang = resolvedParams.lang as 'es' | 'en' | 'sq';
+  const dict = await getDictionary(lang);
   const TITULO = `${BODA.nombres} · ${dict.config.fechaTexto}`;
   const NOMBRE_APP = `Boda ${BODA.nombres}`;
 
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     applicationName: NOMBRE_APP,
     openGraph: {
       type: "website",
-      locale: resolvedParams.lang === 'en' ? 'en_US' : resolvedParams.lang === 'sq' ? 'sq_AL' : 'es_ES',
+      locale: lang === 'en' ? 'en_US' : lang === 'sq' ? 'sq_AL' : 'es_ES',
       url: BODA.url,
       siteName: NOMBRE_APP,
       title: TITULO,
@@ -56,12 +56,14 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ lang: 'es' | 'en' | 'sq' }>;
+  params: Promise<{ lang: string }>;
 }>) {
   const resolvedParams = await params;
+  const lang = resolvedParams.lang as 'es' | 'en' | 'sq';
+  
   return (
     <html
-      lang={resolvedParams.lang}
+      lang={lang}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
